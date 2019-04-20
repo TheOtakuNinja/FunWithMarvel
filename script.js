@@ -346,9 +346,9 @@ let movieListDetailed = [
 
 
 for (var i = 0; i < movieListDetailed.length; i++) {
-  let movieLister = `
-    <div id="mavie">
-
+  let movieLister =
+  `
+      <div class="mavie">
       <h1> ${movieListDetailed[i]["title"]} </h1>
       <img src="${movieListDetailed[i]["moviePoster"]}">
       <p> Released: ${movieListDetailed[i]["releaseDate"]} </p>
